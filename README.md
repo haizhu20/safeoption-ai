@@ -133,3 +133,57 @@ We welcome:
 
 MIT License
 
+---
+
+## MVP Scope
+
+Current MVP focuses on educational and risk-awareness tools only.
+
+This project does NOT provide:
+
+- Automated trading
+- Brokerage integration
+- Real-money execution
+- Financial guarantees
+- High-frequency trading
+- Personalized investment advice
+
+The current MVP includes:
+
+- Sell Put Risk Analysis
+- Break-even Calculation
+- Dividend Risk Checker
+- Earnings Risk Checker
+- Assignment Risk Analysis
+- Bilingual Educational Explanation
+
+- ## Technical Stack
+
+Current technology stack:
+
+- Python
+- Streamlit
+- yfinance
+- GitHub
+- Modular Risk Engine Architecture
+
+- ## Project Structure
+
+app/
+risk_engine/
+data/
+docs/
+demo/
+tests/
+future_modules/
+
+## Future Expansion
+
+SafeOption AI is designed as the first module of a broader educational financial framework:
+
+- SafeFuture AI
+- SafePortfolio AI
+- SafeIncome AI
+
+The long-term goal is to build a multilingual AI-assisted financial education ecosystem focused on risk awareness and responsible investing.
+
