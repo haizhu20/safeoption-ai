@@ -1,4 +1,5 @@
 import streamlit as st
+import yfinance as yf
 
 st.set_page_config(page_title="SafeOption AI", page_icon="🛡️")
 
@@ -16,7 +17,18 @@ st.warning(
 st.sidebar.header("Input Parameters")
 
 stock_symbol = st.sidebar.text_input("Stock Symbol", "IBM")
-current_price = st.sidebar.number_input("Current Stock Price", min_value=0.0, value=210.0)
+
+try:
+    ticker = yf.Ticker(stock_symbol)
+    live_price = ticker.history(period="1d")["Close"].iloc[-1]
+except:
+    live_price = 210.0
+
+current_price = st.sidebar.number_input(
+    "Current Stock Price",
+    min_value=0.0,
+    value=float(round(live_price, 2))
+)
 strike_price = st.sidebar.number_input("Strike Price", min_value=0.0, value=200.0)
 premium = st.sidebar.number_input("Premium Received", min_value=0.0, value=2.50)
 days_to_expiry = st.sidebar.number_input("Days to Expiry", min_value=1, value=7)
