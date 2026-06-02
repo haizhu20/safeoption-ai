@@ -62,7 +62,23 @@ elif distance_to_strike > 0.03:
     assignment_risk = "Moderate"
 else:
     assignment_risk = "High"
+# Dividend Risk
 
+if ex_dividend == "Yes":
+    if dividend_amount > premium:
+        dividend_risk = "High"
+    else:
+        dividend_risk = "Moderate"
+else:
+    dividend_risk = "Low"
+
+# Earnings Risk
+
+if earnings_event == "Yes":
+    earnings_risk = "High"
+else:
+    earnings_risk = "Low"
+    
 st.header("Sell Put Risk Analysis")
 
 st.write(f"### Stock: {stock_symbol}")
