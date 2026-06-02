@@ -157,7 +157,7 @@ The current MVP includes:
 - Assignment Risk Analysis
 - Bilingual Educational Explanation
 
-  ## Technical Stack
+## Technical Stack
 
 Current technology stack:
 
@@ -167,7 +167,7 @@ Current technology stack:
 - GitHub
 - Modular Risk Engine Architecture
 
-  ## Project Structure
+## Project Structure
 
 app/
 risk_engine/
