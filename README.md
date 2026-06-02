@@ -96,9 +96,9 @@ architecture/        System design and diagrams
 assets/              Images and visual resources
 demo/                MVP demos and screenshots
 docs/                Documentation
-education-module/    Educational content
+education_module/    Educational content
 multilingual/        Language framework
-risk-engine/         Risk calculation engine
+risk_engine/         Risk calculation engine
 roadmap/             Development roadmap
 submissions/         Hackathon submissions
 ```
@@ -157,7 +157,7 @@ The current MVP includes:
 - Assignment Risk Analysis
 - Bilingual Educational Explanation
 
-- ## Technical Stack
+  ## Technical Stack
 
 Current technology stack:
 
@@ -167,7 +167,7 @@ Current technology stack:
 - GitHub
 - Modular Risk Engine Architecture
 
-- ## Project Structure
+  ## Project Structure
 
 app/
 risk_engine/
