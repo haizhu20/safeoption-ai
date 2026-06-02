@@ -32,6 +32,21 @@ current_price = st.sidebar.number_input(
 strike_price = st.sidebar.number_input("Strike Price", min_value=0.0, value=200.0)
 premium = st.sidebar.number_input("Premium Received", min_value=0.0, value=2.50)
 days_to_expiry = st.sidebar.number_input("Days to Expiry", min_value=1, value=7)
+ex_dividend = st.sidebar.selectbox(
+    "Ex-Dividend Before Expiry?",
+    ["No", "Yes"]
+)
+
+dividend_amount = st.sidebar.number_input(
+    "Dividend Amount",
+    min_value=0.0,
+    value=0.0
+)
+
+earnings_event = st.sidebar.selectbox(
+    "Earnings Before Expiry?",
+    ["No", "Yes"]
+)
 contracts = st.sidebar.number_input("Number of Contracts", min_value=1, value=1)
 
 break_even = strike_price - premium
