@@ -118,6 +118,14 @@ else:
     st.success(f"Earnings Risk: {earnings_risk}")
 
 st.info(
+    "Dividend events and earnings announcements may increase option assignment risk and volatility."
+)
+
+st.info(
+    "Educational purpose only. Users should understand option risks before trading."
+)
+
+st.info(
     "Selling puts may result in stock assignment. Users should only sell puts on stocks they are willing to own."
 )
 
