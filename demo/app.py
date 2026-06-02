@@ -101,6 +101,21 @@ elif assignment_risk == "Moderate":
     st.warning(f"Assignment Risk: {assignment_risk}")
 else:
     st.error(f"Assignment Risk: {assignment_risk}")
+# Dividend Risk Display
+
+if dividend_risk == "High":
+    st.error(f"Dividend Risk: {dividend_risk}")
+elif dividend_risk == "Moderate":
+    st.warning(f"Dividend Risk: {dividend_risk}")
+else:
+    st.success(f"Dividend Risk: {dividend_risk}")
+
+# Earnings Risk Display
+
+if earnings_risk == "High":
+    st.error(f"Earnings Risk: {earnings_risk}")
+else:
+    st.success(f"Earnings Risk: {earnings_risk}")
 
 st.info(
     "Selling puts may result in stock assignment. Users should only sell puts on stocks they are willing to own."
