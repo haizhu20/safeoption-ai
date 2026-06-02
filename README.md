@@ -1,4 +1,7 @@
 # SafeOption AI
+SafeOption AI is an open-source educational platform focused on option risk awareness, financial education, and responsible investing.
+
+The project combines AI-assisted learning, multilingual educational support, and modular risk analysis tools to help retail investors better understand option trading risks.
 
 ## Education First. Risk First.
 
