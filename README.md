@@ -190,3 +190,34 @@ SafeOption AI is designed as the first module of a broader educational financial
 
 The long-term goal is to build a multilingual AI-assisted financial education ecosystem focused on risk awareness and responsible investing.
 
+## Demo Video
+
+Watch the working prototype demo here:
+
+[SafeOption AI Demo Video](demo/SafeOptionAI_Final_Submit.mp4)
+
+---
+
+## Pitch Deck
+
+[Open Hackathon Pitch PDF](docs/submissions/SafeOption%20AI%20Hackathon%20Pitch-V3_Oreo%20G%20%26%20Hai.pdf)
+
+---
+
+## Project Screenshots
+
+### Risk Analysis Interface
+
+![Risk Analysis](assets/screenshots/RiskAnalysis.jpg)
+
+### Educational Explanation Module
+
+![Educational Explanation](assets/screenshots/EducationalExplanation.jpg)
+
+### SafeOption AI Demo Interface
+
+![Demo UI](assets/screenshots/UI_Demo.jpg)
+
+### Final Presentation Slide
+
+![Final Slide](assets/screenshots/FinalThankYou.jpg)
