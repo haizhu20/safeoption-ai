@@ -200,7 +200,7 @@ Watch the working prototype demo here:
 
 ## Pitch Deck
 
-[Open Hackathon Pitch PDF](docs/submissions/SafeOption%20AI%20Hackathon%20Pitch-V3_Oreo%20G%20%26%20Hai.pdf)
+[Open Hackathon Pitch PDF](docs/submissions/SafeOption AI Hackathon Pitch-V3_Oreo G & Hai.pdf)
 
 ---
 
@@ -208,16 +208,16 @@ Watch the working prototype demo here:
 
 ### Risk Analysis Interface
 
-![Risk Analysis](assets/screenshots/RiskAnalysis.jpg)
+![Risk Analysis](assets/screenshots/Slide1.JPG)
 
 ### Educational Explanation Module
 
-![Educational Explanation](assets/screenshots/EducationalExplanation.jpg)
+![Educational Explanation](assets/screenshots/Slide2.JPG)
 
 ### SafeOption AI Demo Interface
 
-![Demo UI](assets/screenshots/UI_Demo.jpg)
+![Demo UI](assets/screenshots/Slide5.JPG)
 
 ### Final Presentation Slide
 
-![Final Slide](assets/screenshots/FinalThankYou.jpg)
+![Final Slide](assets/screenshots/Slide10.JPG)
