@@ -192,7 +192,7 @@ The long-term goal is to build a multilingual AI-assisted financial education ec
 
 ## Demo Video
 
-Watch the working prototype demo here:
+Download the working prototype demo here:
 
 [SafeOption AI Demo Video](demo/SafeOptionAI_Final_Submit.mp4)
 
