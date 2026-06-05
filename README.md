@@ -200,7 +200,7 @@ Download the working prototype demo here:
 
 ## Pitch Deck
 
-[Open Hackathon Pitch PDF](docs/submissions/SafeOption AI Hackathon Pitch-V3_Oreo G & Hai.pdf)
+[Open Hackathon Pitch PDF](docs/submissions/SafeOptionAI_PitchDeck.pdf)
 
 ---
 
