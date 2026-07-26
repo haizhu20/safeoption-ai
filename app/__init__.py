@@ -1,0 +1,1 @@
+"""SafeOption AI - Streamlit Application"""
